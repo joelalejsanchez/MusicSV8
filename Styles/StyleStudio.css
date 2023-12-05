@@ -1,0 +1,120 @@
+.perfil--img>img {
+    border-radius: 50%;
+}
+
+.perfil {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #050505;
+    overflow-y: auto;
+}
+
+.perfil--info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 0;
+    align-items: center;
+}
+
+.perfil--info h3 {
+    text-align: center;
+}
+
+.perfil--info__img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 300px;
+}
+
+.perfil--stats {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil--stats__inf {
+    color: gray;
+}
+
+.perfil--Top__song {
+    padding: 5px;
+    background-color: #0c0c0c;
+    margin: 3px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.perfil--Top__song img {
+    border-radius: 5px;
+}
+
+.perfil--Top__song>div:first-child {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.song__visits {
+    display: flex;
+    align-items: center;
+    color: gray;
+    gap: 3px;
+    margin-right: 1em;
+}
+
+.Content {
+    width: 100%;
+    padding: 1em;
+}
+
+.Content>input {
+    background-color: midnightblue;
+    border: 0px;
+    font-size: medium;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+.albunes {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.albunes--album {
+    height: 150px;
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    background-color: #0c0c0c;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.albunes--album:hover {
+    background-color: #101010;
+}
+
+.albunes--album__inf {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.albunes--album__inf>div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

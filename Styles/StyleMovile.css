@@ -1,0 +1,143 @@
+@media screen and (max-width: 430px) {
+
+    body {
+        height: auto;
+    }
+
+    header {
+        grid-template-columns: auto auto;
+    }
+
+    #logo {
+        grid-column: 1/2;
+    }
+
+    header #center {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .MenuMovil {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        align-items: center;
+        background-color: #050505;
+    }
+
+    .MenuMovil nav {
+        width: 100%;
+    }
+
+    .MenuMovil ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        size: 100px;
+        background-color: #050505;
+    }
+
+    #principal {
+        width: 100%;
+    }
+
+    .PListR {
+        width: 100%;
+    }
+
+    #Rp {
+        display: none;
+    }
+
+    #imgsong {
+        height: 100%;
+        width: auto;
+    }
+
+    #Reproductor {
+        display: none;
+    }
+
+    .ReproductorMovilp {
+        display: block;
+        position: fixed;
+        height: 80px;
+        width: 98%;
+        bottom: 80px;
+        background-color: transparent;
+        z-index: 1;
+        margin: 0 auto;
+    }
+
+    #controles {
+        justify-content: space-around;
+        height: 80%;
+        align-items: center;
+    }
+
+    #Botones {
+        width: 60%;
+        display: flex;
+        background: transparent;
+        justify-content: space-between;
+    }
+
+
+    .ReproductorMovil {
+        display: flex;
+        height: 90px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgb(5, 5, 5, 0.978);
+        border-radius: 20px;
+        border: 2px solid rgb(20, 20, 20);
+        padding: 5px 20px 5px 5px;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .ListSongs {
+        display: none;
+    }
+
+    .PlayLists--Header {
+        padding: 2em 0;
+    }
+
+    .PlayLists--Header__Img {
+        width: 100px;
+    }
+
+    .ListsongMovile {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .SongMovile {
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        padding: 3px;
+    }
+
+    .DescSongs {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Play {
+        background-color: #0c0c0c;
+        border-radius: 3px;
+    }
+}

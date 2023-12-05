@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/Style.css">
+    <link rel="stylesheet" href="Styles/scroll.css">
+    <link rel="stylesheet" href="Styles/PlayLists.css">
+    <link rel="stylesheet" href="Styles/StyleTable.css">
+    <link rel="stylesheet" href="Styles/StyleMovile.css">
+    <title>Tus me gusta</title>
+    <script src="https://kit.fontawesome.com/e8f815e43c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img id="imglog" src="Imagenes_Proyecto/Music_29918.png" alt="">
+            <b style="font-size: 30px;">Music</b>
+        </div>
+        <div id="center">
+            <input id="buscador" type="text" placeholder="Buscar">
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div id="Config">
+            <input id="btnLogin" type="button" value="Iniciar secion">
+        </div>
+        <div id="Login">
+            <div id="Formulario">
+                <form>
+                    <h2 style="text-align: center; background: transparent; margin-bottom: 20px;">Registro</h2>
+                    <label for="fname">Nombre:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Correo:</label><br>
+                    <input type="email" id="email" name="correo" value=""><br>
+                    <label for="lname">Contrseña:</label><br>
+                    <input type="password" id="Ipre" name="Ipre" value=""><br>
+                    <label for="quantity">Confirmar contrseña:</label><br>
+                    <input type="password" id="quantity" name="quantity" min="" max=""><br>
+                    <label for="limg">Fecha nacimiento:</label><br>
+                    <input type="date" name="idate" id="idate"><br>
+                    <div class="Botones">
+                        <input type="submit" value="REGISTRAR" id="Btn">
+                        <input type="submit" value="INICIAR SECION" id="Btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="menu">
+            <nav class="menu--navbar">
+                <ul>
+                    <li class="menu--li__select">
+                        <a href=" main.html">
+                            <i class="fa-solid fa-house"></i>
+                            <p>Inicio</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-compass"></i>
+                            <p>Explorar</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-gem"></i>
+                            <p>Premium</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="playlist">
+                <div class="playlist--title">
+                    <a href="#">
+                        <i class="fa-solid fa-list"></i>
+                        <p>Tus playlist</p>
+                    </a>
+                </div>
+                <div class="PList" id="PlayListsLikes">
+                    <img src="Imagenes_Proyecto/imgp.png" alt="">
+                    <div>
+                        Tus me gusta <br>
+                        <p style="color: gray;">descripcion</p>
+                    </div>
+                </div>
+                <div class="PList" id="PlayListsMix">
+                    <img src="Imagenes_Proyecto/imgp.png" alt="">
+                    <div>
+                        Lorem ipsum dolor <br>
+                        <p style="color: gray;">descripcion</p>
+                    </div>
+                </div>
+                <div class="PList">
+                    <img src="Imagenes_Proyecto/imgp.png" alt="">
+                    <div>
+                        Lorem ipsum dolor <br>
+                        <p style="color: gray;">descripcion</p>
+                    </div>
+                </div>
+                <div class="PList">
+                    <img src="Imagenes_Proyecto/imgp.png" alt="">
+                    <div style="flex-wrap: nowrap;">
+                        Lorem ipsum dolor <br>
+                        <p style="color: gray;">descripcion</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="MenuMovil">
+            <nav>
+                <ul>
+                    <a href="main.html">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-compass"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-gem"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li style="color: white;">
+                            <i class="fa-solid fa-list"></i>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="principal">
+
+            <div class="PlayLists--Header">
+                <div>
+                    <img class="PlayLists--Header__Img" src="Imagenes_Proyecto/imgp.png" alt="">
+                    <div class="PlayLists--Header__Title">
+                        <h1>Tus me gusta</h1>
+                        <h3>Lorem ipsum dolor</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ListSongs">
+                <Table id="SongsLikes">
+                    <thead>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Artista</th>
+                        <th>Album</th>
+                        <th>Fecha Agregada</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </Table>
+            </div>
+
+            <div class="ListsongMovile">
+                <div class="SongMovile">
+                    <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" style="border-radius: 5px;">
+                    <div class="DescSongs">
+                        <div>
+                            <h4>Name Song</h4>
+                            <h5 style="color: gray;">Artista</h5>
+                        </div>
+                        <div style="font-size: x-large;">❤</div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="SongMovile Play">
+                    <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" style="border-radius: 5px;">
+                    <div class="DescSongs">
+                        <div>
+                            <h4>Name Song</h4>
+                            <h5 style="color: gray;">Artista</h5>
+                        </div>
+                        <div style="font-size: x-large;">❤</div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="SongMovile">
+                    <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" style="border-radius: 5px;">
+                    <div class="DescSongs">
+                        <div>
+                            <h4>Name Song</h4>
+                            <h5 style="color: gray;">Artista</h5>
+                        </div>
+                        <div style="font-size: x-large;">❤</div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="SongMovile">
+                    <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" style="border-radius: 5px;">
+                    <div class="DescSongs">
+                        <div>
+                            <h4>Name Song</h4>
+                            <h5 style="color: gray;">Artista</h5>
+                        </div>
+                        <div style="font-size: x-large;">❤</div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="SongMovile">
+                    <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" style="border-radius: 5px;">
+                    <div class="DescSongs">
+                        <div>
+                            <h4>Name Song</h4>
+                            <h5 style="color: gray;">Artista</h5>
+                        </div>
+                        <div style="font-size: x-large;">❤</div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="SongMovile">
+                    <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" style="border-radius: 5px;">
+                    <div class="DescSongs">
+                        <div>
+                            <h4>Name Song</h4>
+                            <h5 style="color: gray;">Artista</h5>
+                        </div>
+                        <div style="font-size: x-large;">❤</div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="SongMovile">
+                    <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" style="border-radius: 5px;">
+                    <div class="DescSongs">
+                        <div>
+                            <h4>Name Song</h4>
+                            <h5 style="color: gray;">Artista</h5>
+                        </div>
+                        <div style="font-size: x-large;">❤</div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+        </section>
+
+        <section id="Reproductor">
+            <img id="imgbg" src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="">
+            <div id="bg">
+                <div id="Rp">
+                    <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" id="imgsong">
+                    <div id="controles">
+                        <div id="Name">
+                            <h4 id="RepNameSong">Name Song</h4>
+                            <h5 style="color: gray;">Artista</h5>
+                        </div>
+                        <div>
+                            <div>
+                                <div id="BarraTiempo"></div>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; width: 100%;">
+                                <h5>2:48</h5>
+                                <h5>3:21</h5>
+                            </div>
+                        </div>
+                        <div id="Botones">
+                            <i class="fa-solid fa-shuffle"></i>
+                            <i class="fa-solid fa-backward"></i>
+                            <i class="fa-solid fa-play"></i>
+                            <i id="skip" class="fa-solid fa-forward"></i>
+                            <i class="fa-solid fa-rotate"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="ReproductorMovilp">
+            <div class="ReproductorMovil">
+                <img src="Imagenes_Proyecto/Portdas/portada1.jpeg" alt="" id="imgsong">
+                <div id="controles">
+                    <h4>Name Song</h4>
+                    <div id="Botones">
+                        <i class="fa-solid fa-backward"></i>
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-forward"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/index.js"></script>
+    <script src="script/Reproductor.js"></script>
+
+</body>
+
+</html>

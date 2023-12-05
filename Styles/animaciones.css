@@ -1,0 +1,12 @@
+/* #imgsong {
+    animation-name: skip;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes skip {
+    100% {
+        translate: -20px 0;
+        opacity: 0;
+    }
+}

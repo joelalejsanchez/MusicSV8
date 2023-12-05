@@ -1,0 +1,50 @@
+.PlayLists--Header {
+    display: flex;
+    padding: 3em 0;
+}
+
+.PlayLists--Header>div {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 1em;
+}
+
+.PlayLists--Header__Img {
+    width: 150px;
+}
+
+.PlayLists--Header__Title h3 {
+    color: gray;
+}
+
+.ListSongs Table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+.ListSongs th {
+    text-align: left;
+
+}
+
+.ListSongs td {
+    height: 50px;
+}
+
+td img {
+    border-radius: 3px;
+}
+
+.Play td {
+    background-color: #0c0c0c;
+    color: aqua;
+}
+
+.btnLike {
+    background-color: transparent;
+    /* border: transparent; */
+    padding: 0;
+}
