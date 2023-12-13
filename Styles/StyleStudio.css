@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     padding: 1em;
-    background-color: #050505;
+    background-color: var(--primary-color);
     overflow-y: auto;
 }
 
@@ -76,13 +76,30 @@
     padding: 1em;
 }
 
-.Content>input {
+.Content--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Content--header>input {
     background-color: midnightblue;
     border: 0px;
     font-size: medium;
     padding: 0.5em;
     border-radius: 1em;
-    margin-top: 1em;
+    margin-right: 1em;
+}
+
+#CreateAlbum {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.CreateAlmForm #BtnCreateAlbum {
+    background: midnightblue;
 }
 
 .albunes {

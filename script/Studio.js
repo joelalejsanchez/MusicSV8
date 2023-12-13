@@ -14,6 +14,8 @@ for (const album of albunes) {
 
 albunesconten.append(fragment)
 
+
+
 function cartAlbum(name, portada, lanzamiento) {
     let cart = document.createElement("div")
     cart.className = "albunes--album"
@@ -32,4 +34,15 @@ function cartAlbum(name, portada, lanzamiento) {
     </div>
     `
     return cart
+}
+
+var btnCreate = document.getElementById('BtnCreateAlbum')
+var modalcreate = document.getElementById('CreateAlbum')
+btnCreate.click = function () {
+    modalcreate.style.display = "flex"
+}
+window.onclick = function (e) {
+    if (e.target == modalcreate) {
+        modalcreate.style.display = "none"
+    }
 }
