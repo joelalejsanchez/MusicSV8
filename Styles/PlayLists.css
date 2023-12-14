@@ -27,11 +27,12 @@
 
 .ListSongs th {
     text-align: left;
-
+    height: 50px;
 }
 
 .ListSongs td {
     height: 50px;
+    cursor: default;
 }
 
 td img {
@@ -41,10 +42,4 @@ td img {
 .Play td {
     background-color: #0c0c0c;
     color: aqua;
-}
-
-.btnLike {
-    background-color: transparent;
-    /* border: transparent; */
-    padding: 0;
 }
